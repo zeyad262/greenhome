@@ -16,7 +16,6 @@ header{
     min-height: 100vh;
     position: relative;
     background-image: url(../images/bg.jpg);
-    background-position: bottom;
     background-size: cover;
     padding-top: 40px;
 }
