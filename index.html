@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="images/logo-2.png" type="image/icon type">
+
+    <title>Green Home</title>
+</head>
+<body oncontextmenu="return false">
+    <header class="text-center top">
+       <div class="img-box text-center">
+        <img class="text-center me-auto py-2 mt-4" src="images/logo-2.png" width="220" alt="">
+       </div>
+    </header>
+    <section class="landing d-flex align-items-center ">
+        <div class="container">
+            <h1 class="text-center position-relative bottom"> Welcome To <span class="green">Green</span> <span class="white">Home</span></h1>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7">
+                    <div class="box bottom">
+                        <div class="text-box text-start d-flex flex-column   w-50 left">
+                            <h4 class="position-relative text-white en">Company Website</h4>
+                            <h3 class="position-relative text-white">موقع الشركة</h3>
+                            <a href="https://www.greenhome-sa.com/home" target="_blank" class="position-relative ">
+                                <img src="images/world-wide-web.png" width="50" alt="">
+                            </a>
+                        </div>
+                        <div class="text-box text-end d-flex flex-column  w-50  right">
+                            <h4 class="position-relative text-white en">E-Store</h4>
+                            <h3 class="position-relative text-white">المتجر الإلكتروني</h3>
+                            <a href="https://store.greenhome-sa.com/" target="_blank" class="position-relative text-end">
+                                <img src="images/online-shopping.png" width="50" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+    </section>
+    <script>
+        ScrollReveal({
+             reset: false,
+             distance: '100px',
+             duration: 1500,
+             delay:100   
+         });
+         ScrollReveal().reveal('.bottom', { delay: 200 ,origin:'bottom'});
+         ScrollReveal().reveal('.left', { delay: 200 ,origin:'left'});
+         ScrollReveal().reveal('.right', { delay: 200 ,origin:'right'});
+         ScrollReveal().reveal('.top', { delay: 200 ,origin:'top'});
+    </script>
+ <script> 
+    document.addEventListener('contextmenu', event=> event.preventDefault()); 
+    document.onkeydown = function(e) { 
+    if(event.keyCode == 123) { 
+    return false; 
+    } 
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+    return false; 
+    } 
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+    return false; 
+    } 
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+    return false; 
+    } 
+    } 
+    </script> 
+</body>
+</html>
